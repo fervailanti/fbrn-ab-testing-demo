@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "953664765612",
+    "firebase_url": "https://a-b-testing-demo-app.firebaseio.com",
+    "project_id": "a-b-testing-demo-app",
+    "storage_bucket": "a-b-testing-demo-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953664765612:android:e46c1a7250e35dff85e909",
+        "android_client_info": {
+          "package_name": "com.abtestingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953664765612-08ap9n5077ee6b98cqt6m4tg2fr0msr6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNcW4bWq4R0mM01_sKV92rIE7I8qsXQ5g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "953664765612-08ap9n5077ee6b98cqt6m4tg2fr0msr6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "953664765612-enrenv47kshhn9vffvsm21qfubkm864i.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.ABTestingApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
