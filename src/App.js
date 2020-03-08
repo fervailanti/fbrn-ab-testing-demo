@@ -1,15 +1,15 @@
 import React from 'react'
 import { ScrollView } from 'react-native'
-import Header from './src/components/Header'
-import Test1 from './src/components/Test1'
-import Test2 from './src/components/Test2'
-import Test3 from './src/components/Test3'
-import { fetchConfig } from './src/services/firebase'
+import Header from './components/Header'
+import Test1 from './components/Test1'
+import Test2 from './components/Test2'
+import Test3 from './components/Test3'
+import { fetchConfig } from './services/firebase'
 import 'react-native-gesture-handler';
 import { NavigationContainer } from '@react-navigation/native'
 import { createStackNavigator } from '@react-navigation/stack'
-import Link from './src/components/Link'
-import RefreshConfig from './src/components/RefreshConfig'
+import Link from './components/Link'
+import RefreshConfig from './components/RefreshConfig'
 
 fetchConfig().catch(console.log)
 

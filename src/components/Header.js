@@ -10,7 +10,8 @@ const Header = () => (
     </Text>
     <Text style={styles.description}>
       Hi there! This is a demo project to show the power of 
-      Firebase <B>A/B Testing</B> and <B>Remote Config</B> tools.
+      Firebase <B>A/B Testing</B> and <B>Remote Config</B> tools
+      with React Native.
     </Text>
   </View>
 )
