@@ -19,7 +19,7 @@ const Test1 = () => {
           In this one we will test an image! If you see <B>Mario</B> you are in <B>Control Group</B>, 
           otherwise, if you see <B>Luigi</B>, you are in <B>Variant A</B>.
         </Text>
-        {experiment ? variants.mario : variants.luigi}
+        {experiment ? variants.luigi : variants.mario}
       </View>
     </ScrollView>
   )
