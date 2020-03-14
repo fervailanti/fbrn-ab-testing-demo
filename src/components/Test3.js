@@ -7,7 +7,7 @@ import B from './Bold'
 const Test3 = () => {
   const { text, color } = JSON.parse(getRemoteValue('experiment_3'))
   return (
-    <ScrollView>
+    <ScrollView testID='test3-screen'>
       <View style={styles.container}>
         <Text style={styles.title}>Color / Text 🎨</Text>
         <Text style={styles.description}>

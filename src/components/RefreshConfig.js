@@ -22,7 +22,7 @@ const RefreshConfig = () => {
   }
 
   return (
-    <TouchableOpacity style={styles.button} onPress={refreshPress}>
+    <TouchableOpacity style={styles.button} onPress={refreshPress} testID='refreshButton'>
       {loading ? content.spinner : content.refresh}
     </TouchableOpacity>
   )

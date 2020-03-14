@@ -12,7 +12,7 @@ const Test1 = () => {
     luigi: <Image source={images.luigi} style={styles.image} resizeMode='contain'/>
   }
   return (
-    <ScrollView>
+    <ScrollView testID='test1-screen'>
       <View style={styles.container}>
         <Text style={styles.title}>Mario & Luigi 🍄</Text>
         <Text style={styles.description}>

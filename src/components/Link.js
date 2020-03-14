@@ -1,8 +1,8 @@
 import React from 'react'
 import { TouchableOpacity, Text, StyleSheet } from 'react-native'
 
-const Link = ({ text, press }) => (
-  <TouchableOpacity style={styles.button} onPress={press}>
+const Link = ({ text, press, testID }) => (
+  <TouchableOpacity style={styles.button} onPress={press} testID={testID}>
     <Text style={styles.text}>{text}</Text>
   </TouchableOpacity>
 )

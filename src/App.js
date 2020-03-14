@@ -1,5 +1,5 @@
 import React from 'react'
-import { ScrollView } from 'react-native'
+import { ScrollView, Text } from 'react-native'
 import Header from './components/Header'
 import Test1 from './components/Test1'
 import Test2 from './components/Test2'
@@ -28,9 +28,9 @@ const Home = ({ navigation }) => (
   <ScrollView>
     <Header/>
     <RefreshConfig/>
-    <Link text='Test #1' press={() => navigation.navigate('test1')}/>
-    <Link text='Test #2' press={() => navigation.navigate('test2')}/>
-    <Link text='Test #3' press={() => navigation.navigate('test3')}/>
+    <Link text='Test #1' press={() => navigation.navigate('test1')} testID='test1-link'/>
+    <Link text='Test #2' press={() => navigation.navigate('test2')} testID='test2-link'/>
+    <Link text='Test #3' press={() => navigation.navigate('test3')} testID='test3-link'/>
   </ScrollView>
 )
 

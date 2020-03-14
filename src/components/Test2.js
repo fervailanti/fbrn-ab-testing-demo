@@ -41,7 +41,7 @@ const config = {
 const Test2 = () => {
   const experiment = getRemoteValue('experiment_2')
   return (
-    <ScrollView>
+    <ScrollView testID='test2-screen'>
       <View style={styles.container}>
         <Text style={styles.title}>Button 🔗</Text>
         <Text style={styles.description}>
